@@ -40,7 +40,7 @@ def remove():
     
 def main():
     print("Options:-\n1.Activate the VPN\n2.Disconnect the VPN")
-    ans = int(input())
+    ans = int(input("> "))
     if ans == 1:
         connect()
     elif ans == 2:
