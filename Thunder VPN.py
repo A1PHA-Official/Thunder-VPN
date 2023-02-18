@@ -5,7 +5,7 @@ import time
 
 def connect():
     servers = ["us1.freevpn724.com","nl1.freevpn724.com","sg1.freevpn724.com","cz1.freevpn724.com","ch1.freevpn724.com"]
-    print("Select the number corresponding to the desired location.\n1.United States\n2.Nehterlands\n3.Singapore\n4.Czech Republic\n5.Switzerland")
+    print("Select the number corresponding to the desired location.\n1.United States\n2.Netherlands\n3.Singapore\n4.Czech Republic\n5.Switzerland")
     def switch(inp):
         if inp == 1:
             ser_loc = servers[0]
